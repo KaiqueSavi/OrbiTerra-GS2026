@@ -1,0 +1,37 @@
+================================================================
+OrbiTerra — Resultados do treino (Random Forest x XGBoost)
+================================================================
+Dias de treino: 816 | teste: 273 (validação temporal, corte em 2024-04-02)
+Baseline (classe majoritária no teste): 68.9%
+
+Algoritmo        | Cenário                  | Acurácia | F1-macro
+----------------------------------------------------------------
+Random Forest    | A satélite+clima         |    83.9% |    0.653
+Random Forest    | B +ESP32                 |    97.4% |    0.916
+                 | >> ganho do ESP32        |   +13.6pt |   +0.263
+----------------------------------------------------------------
+XGBoost          | A satélite+clima         |    78.8% |    0.547
+XGBoost          | B +ESP32                 |    93.0% |    0.884
+                 | >> ganho do ESP32        |   +14.3pt |   +0.337
+----------------------------------------------------------------
+
+Top 5 variáveis (XGBoost, Modelo B):
+  umidade_solo_7d       : 0.513 [ESP32]
+  umidade_solo          : 0.168 [ESP32]
+  precip_30d            : 0.081
+  mes_sin               : 0.061
+  ndvi                  : 0.040
+
+Relatório de classificação — XGBoost Modelo B:
+              precision    recall  f1-score   support
+
+       Baixo       1.00      0.72      0.84        18
+       Médio       0.91      0.79      0.85        67
+        Alto       0.93      1.00      0.96       188
+
+    accuracy                           0.93       273
+   macro avg       0.95      0.84      0.88       273
+weighted avg       0.93      0.93      0.93       273
+
+Conclusão: a umidade do solo (ESP32) é o sinal mais forte e
+o Modelo B supera o A — o sensor de campo se paga.

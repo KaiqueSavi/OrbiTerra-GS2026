@@ -1,0 +1,7 @@
+# Ambientes virtuais (o edital PROÍBE enviar venv) — recriáveis via requirements.txt
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/
