@@ -12,17 +12,9 @@
 
 # 🛰️ OrbiTerra — Inteligência espacial contra o estresse hídrico no café
 
-## Grupo: _[nome do grupo]_
-
 ## 👨‍🎓 Integrantes:
-- <a href="#">Kaique — RM562072</a>
-- <a href="#">Willian — RM571013</a>
-
-## 👩‍🏫 Professores:
-### Tutor(a)
-- <a href="#">[Nome do tutor]</a>
-### Coordenador(a)
-- <a href="#">[Nome do coordenador]</a>
+- <a href="https://github.com/KaiqueSavi">Kaique Savi — RM562072</a>
+- Willian — RM571013
 
 
 ## 📜 Descrição
@@ -102,14 +94,9 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 📎 Links e Observações
 
-- <b>Listagem de Links</b>:
-  - 🎥 Vídeo demonstrativo (YouTube, *Não listado*): **[inserir link aqui]**
-  - 💻 Repositório do projeto: **[inserir link do repositório aqui]**
+- <b>Repositório do projeto</b>: https://github.com/KaiqueSavi/OrbiTerra-GS2026
 - <b>Explicação de decisões técnicas</b>: detalhadas na seção *Descrição* acima e no PDF de entrega
   (`docs/OrbiTerra_Entrega_GS2026.pdf`).
-- <b>Observações Gerais (competição)</b>: a participação no pódio é **a definir pelo grupo**. Para
-  concorrer, incluir a frase **"QUERO CONCORRER"** no início do PDF e nos primeiros segundos do
-  vídeo (com o nome do grupo).
 
 
 ## 🔧 Como executar o código
